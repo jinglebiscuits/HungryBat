@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: a125e472e0664427aaf268d4b83af530
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - pulseMaterial: {fileID: 2100000, guid: e010a91cb3fad46a09f598fec55618d7, type: 2}
+  - mainTexture: {instanceID: 0}
+  - normalMap: {instanceID: 0}
+  - player: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

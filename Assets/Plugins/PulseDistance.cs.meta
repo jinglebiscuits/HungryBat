@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 9a5ffd19b01d14ae4a4c186400b31075
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - pulseMaterial: {fileID: 2100000, guid: 8b4f2cb321e2f4e33ad497b838142501, type: 2}
+  - player: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
