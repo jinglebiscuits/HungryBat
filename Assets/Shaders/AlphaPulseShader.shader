@@ -46,7 +46,7 @@
       float _RimOn;
 
       void myvert (inout appdata_full v, out Input data) {
-
+      	UNITY_INITIALIZE_OUTPUT(Input, data);
       }
       
       void mycolor (Input IN, SurfaceOutput o, inout fixed4 color) {
@@ -57,15 +57,6 @@
           half interval;
           half origin;
           dis = sqrt(pow((IN.worldPos.x - _Origin.x),2) + pow((IN.worldPos.y - _Origin.y), 2) + pow((IN.worldPos.z - _Origin.z), 2));
-
-//          if(dis >= _PDistance)
-//          {
-//          	color.a = c.a * (1 - saturate(abs(_PDistance - dis)/_PEdgeSoftness));
-//          }
-//          else
-//          {
-//          	color.a = c.a * (1 - saturate(abs(_PDistance - dis)/_PFadeDistance));
-//          }
           
           if(dis >= _PDistance)
           {

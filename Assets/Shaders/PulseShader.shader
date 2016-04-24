@@ -33,7 +33,7 @@
       float4 _Origin;
 
       void myvert (inout appdata_full v, out Input data) {
-
+      	UNITY_INITIALIZE_OUTPUT(Input, data);
       }
       
       void mycolor (Input IN, SurfaceOutput o, inout fixed4 color) {
